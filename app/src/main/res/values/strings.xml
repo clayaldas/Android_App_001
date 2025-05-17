@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Primera App en Android</string>
+
+<!--    MainActivity-->
+    <string name="textViewUser_text">Usuario:</string>
+    <string name="textViewPassword_text">Clave:</string>
+
+    <string name="editTextUser_hint">Ingrese el nombre de usuario</string>
+    <string name="editTextPassword_hint">Ingrese la clave</string>
+
+    <string name="buttonOk_text">Aceptar</string>
+
+
+<!--    SeconActivity-->
+    <string name="textViewMessage_text">Esto pasa del primir activity:</string>
+    <string name="buttonBrowser_text">Mostrar Navegador</string>
+    <string name="buttonCall_text">Hacer Llamada</string>
+    <string name="buttonGoggleMaps_text">Mostrar Mapa</string>
+    <string name="buttonShowThirdActivity_text">Mostrar Tercer Activity</string>
+    <string name="buttonClose_text">Cerrar</string>
+</resources>

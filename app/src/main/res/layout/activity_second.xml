@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SecondActivity">
+
+    <TextView
+        android:id="@+id/textViewMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textViewMessage_text" />
+
+    <Button
+        android:id="@+id/buttonBrowser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClicBrowser"
+        android:text="@string/buttonBrowser_text" />
+
+    <Button
+        android:id="@+id/buttonCall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClicCall"
+        android:text="@string/buttonCall_text" />
+
+    <Button
+        android:id="@+id/buttonGoggleMaps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClicGoggleMaps"
+        android:text="@string/buttonGoggleMaps_text" />
+
+    <Button
+        android:id="@+id/buttonShowThirdActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClicShowThirdActivity"
+        android:text="@string/buttonShowThirdActivity_text" />
+
+    <Button
+        android:id="@+id/buttonClose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClicClose"
+        android:text="@string/buttonClose_text" />
+</LinearLayout>
