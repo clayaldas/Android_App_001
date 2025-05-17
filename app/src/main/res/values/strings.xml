@@ -18,4 +18,8 @@
     <string name="buttonGoggleMaps_text">Mostrar Mapa</string>
     <string name="buttonShowThirdActivity_text">Mostrar Tercer Activity</string>
     <string name="buttonClose_text">Cerrar</string>
+
+    <!--    ThirdActivity-->
+    <string name="textViewTitle_text">Listado</string>
+
 </resources>
